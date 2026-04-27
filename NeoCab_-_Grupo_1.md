@@ -187,3 +187,81 @@ El equipo implementó un proceso de validación continuo para asegurar la fiabil
 4.  **Estadísticas Descriptivas:** Se compararon los resultados de `describe()` con el conocimiento del dominio para asegurar que no hubiera anomalías (ej. rangos de temperatura imposibles o duraciones de viaje negativas).
 5.  **Ejecución Técnica:** Se confirmó la ejecución exitosa de todos los fragmentos en Google Colab, corrigiendo cualquier discrepancia de sintaxis detectada en los tracebacks.
 6.  **Análisis Lógico de Visualizaciones:** Cada gráfico fue revisado críticamente para asegurar que los patrones observados fueran lógicamente consistentes con la realidad operativa de Nueva York.
+## Conclusión Inicial: Dinámica de la Demanda de Transporte en NYC
+
+El análisis de los viajes de taxi y HVFHS (Uber/Lyft) en NYC para octubre de 2021, junto con datos climáticos y geográficos, revela patrones claros en la demanda de transporte:
+
+### 1. Demanda Concentrada y de Corta Distancia
+La mayoría de los viajes son de distancias cortas (menos de 5 millas) y duraciones de 10–25 minutos, lo que sugiere un uso enfocado en tramos internos y complementarios al transporte público.
+
+### 2. Patrones Temporales Definidos
+La demanda presenta un “doble pico”, con un incremento fuerte y sostenido entre las 2:00 PM y las 8:00 PM, indicando predominancia de viajes vespertinos y nocturnos (ocio y retorno a casa).  
+Durante la semana (lunes a jueves) la demanda es estable, mientras que los viernes y sábados aumenta significativamente, reflejando su uso para actividades sociales.
+
+### 3. Influencia del Clima
+Las condiciones climáticas tienen un impacto notable en la demanda:
+- Temperaturas moderadas → estabilizan la demanda  
+- Lluvia → genera picos impredecibles (activando tarifas dinámicas)  
+- Días despejados → muestran una demanda más alta y consistente frente a días de clima mixto  
+
+### 4. Distribución Geográfica Desigual
+Manhattan concentra la mayor demanda, casi duplicando a Brooklyn. Esto indica que, pese a la amplia red de transporte público, los usuarios priorizan conveniencia y rapidez.  
+En los distritos exteriores, la demanda parece ser más sensible a factores climáticos, lo que puede afectar la rentabilidad de los conductores.
+
+---
+
+### Conclusión General
+## Conclusión Inicial: Dinámica de la Demanda de Transporte en NYC
+
+El análisis de los viajes de taxi y HVFHS (Uber/Lyft) en NYC para octubre de 2021, junto con datos climáticos y geográficos, revela patrones claros en la demanda de transporte:
+
+### 1. Demanda Concentrada y de Corta Distancia
+La mayoría de los viajes son de distancias cortas (menos de 5 millas) y duraciones de 10–25 minutos, lo que sugiere un uso enfocado en tramos internos y complementarios al transporte público.
+
+### 2. Patrones Temporales Definidos
+La demanda presenta un “doble pico”, con un incremento fuerte y sostenido entre las 2:00 PM y las 8:00 PM, indicando predominancia de viajes vespertinos y nocturnos (ocio y retorno a casa).  
+Durante la semana (lunes a jueves) la demanda es estable, mientras que los viernes y sábados aumenta significativamente, reflejando su uso para actividades sociales.
+
+### 3. Influencia del Clima
+Las condiciones climáticas tienen un impacto notable en la demanda:
+- Temperaturas moderadas → estabilizan la demanda  
+- Lluvia → genera picos impredecibles (activando tarifas dinámicas)  
+- Días despejados → muestran una demanda más alta y consistente frente a días de clima mixto  
+
+### 4. Distribución Geográfica Desigual
+Manhattan concentra la mayor demanda, casi duplicando a Brooklyn. Esto indica que, pese a la amplia red de transporte público, los usuarios priorizan conveniencia y rapidez.  
+En los distritos exteriores, la demanda parece ser más sensible a factores climáticos, lo que puede afectar la rentabilidad de los conductores.
+
+---
+## Conclusión Inicial: Dinámica de la Demanda de Transporte en NYC
+
+El análisis de los viajes de taxi y HVFHS (Uber/Lyft) en NYC para octubre de 2021, junto con datos climáticos y geográficos, revela patrones claros en la demanda de transporte:
+
+### 1. Demanda Concentrada y de Corta Distancia
+La mayoría de los viajes son de distancias cortas (menos de 5 millas) y duraciones de 10–25 minutos, lo que sugiere un uso enfocado en tramos internos y complementarios al transporte público.
+
+### 2. Patrones Temporales Definidos
+La demanda presenta un “doble pico”, con un incremento fuerte y sostenido entre las 2:00 PM y las 8:00 PM, indicando predominancia de viajes vespertinos y nocturnos (ocio y retorno a casa).  
+Durante la semana (lunes a jueves) la demanda es estable, mientras que los viernes y sábados aumenta significativamente, reflejando su uso para actividades sociales.
+
+### 3. Influencia del Clima
+Las condiciones climáticas tienen un impacto notable en la demanda:
+- Temperaturas moderadas → estabilizan la demanda  
+- Lluvia → genera picos impredecibles (activando tarifas dinámicas)  
+- Días despejados → muestran una demanda más alta y consistente frente a días de clima mixto  
+
+### 4. Distribución Geográfica Desigual
+Manhattan concentra la mayor demanda, casi duplicando a Brooklyn. Esto indica que, pese a la amplia red de transporte público, los usuarios priorizan conveniencia y rapidez.  
+En los distritos exteriores, la demanda parece ser más sensible a factores climáticos, lo que puede afectar la rentabilidad de los conductores.
+
+---
+
+### Conclusión General
+La demanda de transporte en NYC está fuertemente influenciada por:
+- La hora del día  
+- El día de la semana  
+- Las condiciones climáticas  
+- La ubicación geográfica  
+
+Estos insights son clave para optimizar la distribución de conductores y diseñar estrategias de precios dinámicos en plataformas de movilidad.
+```
