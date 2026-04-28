@@ -1,4 +1,5 @@
 # Caso 2 - Movilidad urbana y demanda de transporte (NeoCab NYC)
+**grupo 1**
 <img src="fa1dc72c2fbc82e0a1734e721b1399f1.jpg" width="400"/>
 
 **Índice**
