@@ -12,7 +12,9 @@
 Para la revisión de los entregables técnicos y código fuente de esta investigación, puede acceder directamente a los recursos haciendo clic en los siguientes enlaces:
 
 * 📊 **Dashboard Interactivo de Negocio:** [DashboardNeoCab.html](DashboardNeoCab.html) | Archivo web autoejecutable que contiene las visualizaciones avanzadas de BI, KPIs operacionales y la distribución geoespacial de la flota en NYC.
-* 🚀 **Notebook de Procesamiento y Modelado en Big Data (Databricks):** [TrabajoFINAL_NYC_grupo_1.ipynb](TrabajoFINAL_NYC_grupo_1.ipynb) | Código fuente desarrollado en el entorno de clúster de Databricks que integra el pipeline de ingeniería de datos (PySpark), las agregaciones analíticas de los 45 millones de registros y el entrenamiento del modelo predictivo (scikit-learn).
+* 🚀 **Notebook de Procesamiento y Modelado en Big Data (Databricks):** [TrabajoFINAL_NYC_grupo_1.ipynb]
+* (TrabajoFINAL_NYC_grupo_1.ipynb) | Código fuente desarrollado en el entorno de clúster de Databricks que integra el pipeline de ingeniería de datos (PySpark), las agregaciones analíticas de los 45 millones de registros y el entrenamiento del modelo predictivo (scikit-learn).
+* [Presentación: PC2_NeoCab Grupo 1.pdf](https://github.com/user-attachments/files/29269222/PC2_NeoCab.Grupo.1.pdf)
 
 ---
 
