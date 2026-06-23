@@ -9,10 +9,10 @@
 
 ## 📂 Archivos Adjuntos y Enlaces del Proyecto
 
-Para la revisión de los entregables técnicos y código fuente de esta investigación, se adjuntan los siguientes recursos alojados en este repositorio:
+Para la revisión de los entregables técnicos y código fuente de esta investigación, puede acceder directamente a los recursos haciendo clic en los siguientes enlaces:
 
-* 📊 **Dashboard Interactivo de Negocio:** DashboardNeoCab.html | Archivo web autoejecutable que contiene las visualizaciones avanzadas de BI, KPIs operacionales y la distribución geoespacial de la flota en NYC.
-* 🚀 **Notebook de Procesamiento y Modelado en Big Data (Databricks):** `TrabajoFINAL_NYC_grupo_1.ipynb` | Código fuente desarrollado en el entorno de clúster de Databricks que integra el pipeline de ingeniería de datos (PySpark), las agregaciones analíticas de los 45 millones de registros y el entrenamiento del modelo predictivo (scikit-learn).
+* 📊 **Dashboard Interactivo de Negocio:** [DashboardNeoCab.html](DashboardNeoCab.html) | Archivo web autoejecutable que contiene las visualizaciones avanzadas de BI, KPIs operacionales y la distribución geoespacial de la flota en NYC.
+* 🚀 **Notebook de Procesamiento y Modelado en Big Data (Databricks):** [TrabajoFINAL_NYC_grupo_1.ipynb](TrabajoFINAL_NYC_grupo_1.ipynb) | Código fuente desarrollado en el entorno de clúster de Databricks que integra el pipeline de ingeniería de datos (PySpark), las agregaciones analíticas de los 45 millones de registros y el entrenamiento del modelo predictivo (scikit-learn).
 
 ---
 
@@ -76,7 +76,7 @@ Esto confirma una marcada asimetría positiva en la recaudación: existe una bas
 
 ---
 
-## 🔍 Nivel 2: Analítica Diagnóstica (Evolución y Validación de Hipótesis)
+## 🔍 Nivel 2: Analítica Diagnóstica (Evolución y Validation de Hipótesis)
 
 Para esta entrega final, el equipo migró de preguntas exploratorias iniciales (Fase 1) a hipótesis analíticas refinadas y cuantitativas (Fase 2), evaluándolas mediante agregaciones masivas sobre el clúster unificado:
 
