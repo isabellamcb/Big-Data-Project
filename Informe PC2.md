@@ -1,4 +1,5 @@
 # Informe Final de Analítica Avanzada y Big Data – NeoCab NYC (PC2)
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/fa3f77c8-7dc2-4df4-a8dc-40752ea8107d" />
 
 **Curso:** AD3005 – Introducción a Data Analytics y Big Data (UTEC)  
 **Caso 2:** Movilidad urbana y demanda de transporte  
@@ -162,3 +163,15 @@ Las siguientes recomendaciones están directamente conectadas con hallazgos cuan
 | **Flexibilidad** | Rígida (Conductor forzado) | Flexible (Decisión Opt-In voluntaria) |
 | **Oferta Manhattan** | Reducida drásticamente (-10%) | Preservada (Solo migran unidades libres) |
 | **ROI Comercial** | **-19.99%** (Destrucción de valor) | **+414%** (Rentabilidad de Big Data) |
+---
+
+## 7. Apéndice: Gobierno y Uso de Inteligencia Artificial Generativa
+
+En cumplimiento de las políticas éticas y de transparencia del curso, el equipo declara el uso de herramientas de Inteligencia Artificial Generativa bajo el siguiente esquema de auditoría técnica:
+
+* **Herramientas Utilizadas:** ChatGPT (OpenAI) y Gemini (Google).
+* **Interacción y Prompts Clave:**
+    * *Optimización de Consultas:* Conversión de filtros condicionales iterativos en estructuras masivas aceleradas mediante funciones nativas de PySpark (`F.when` y `F.percentile_approx`).
+    * *Traducción de Sintaxis:* Migración de código de entrenamiento estadístico estructurado en entornos locales (`scikit-learn`) hacia pipelines ejecutables a gran escala en los nodos del clúster distribuidos en Databricks.
+    * *Estructuración de Reporte:* Transformación de bloques crudos de código e insights numéricos dispersos en un informe formal formateado limpiamente en Markdown para su correcta visualización en GitHub.
+* **Verificación y Control de Calidad:** Todas las salidas algorítmicas, coeficientes de regresión obtenidos y proyecciones de escenarios financieros simulados fueron validados, auditados matemáticamente y corregidos de forma manual por el equipo de ingeniería (`QA`). Esto garantizó la coherencia lógica corporativa y previno cualquier tipo de alucinación informativa por parte de los modelos generativos.
