@@ -11,7 +11,7 @@
 
 Para la revisión de los entregables técnicos y código fuente de esta investigación, se adjuntan los siguientes recursos alojados en este repositorio:
 
-* 📊 **Dashboard Interactivo de Negocio:**  | Archivo web autoejecutable que contiene las visualizaciones avanzadas de BI, KPIs operacionales y la distribución geoespacial de la flota en NYC.
+* 📊 **Dashboard Interactivo de Negocio:** DashboardNeoCab.html | Archivo web autoejecutable que contiene las visualizaciones avanzadas de BI, KPIs operacionales y la distribución geoespacial de la flota en NYC.
 * 🚀 **Notebook de Procesamiento y Modelado en Big Data (Databricks):** `TrabajoFINAL_NYC_grupo_1.ipynb` | Código fuente desarrollado en el entorno de clúster de Databricks que integra el pipeline de ingeniería de datos (PySpark), las agregaciones analíticas de los 45 millones de registros y el entrenamiento del modelo predictivo (scikit-learn).
 
 ---
