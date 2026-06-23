@@ -74,16 +74,21 @@ Para esta entrega final, el equipo migró de preguntas exploratorias iniciales (
 * **Hipótesis Exploratoria Inicial (Fase 1):** ¿Es la demanda en distritos como Queens y Brooklyn más sensible a las bajas temperaturas que en Manhattan debido a las limitaciones de la red de transporte público alternativo?
 * **Hipótesis Refinada Cuantitativa (Fase 2):** La demanda de viajes y el valor de la tarifa dinámica de NeoCab experimentan un incremento significativo durante los días feriados (*Holidays*) en los distritos clasificados como "hotspots" gastronómicos/nocturnos, debido a que la población local y los turistas concentran su movilidad exclusivamente en torno a actividades y consumo en estas zonas durante los días no laborables.
 * **Resultado del Diagnóstico:** **VALIDADA.** Al agrupar por distrito y rangos térmicos, se demostró que cuando la temperatura desciende de los 10°C, la demanda en Queens y Brooklyn se dispara en un **14.2%** en comparación con días templados, mientras que Manhattan se mantiene estable por su densa red de metro. Además, al cruzar el flag de feriados, los cuadrantes clasificados como hotspots registraron un estiramiento en los cuartiles de precios, validando la concentración de la movilidad en las zonas de ocio nocturno.
+<img width="951" height="531" alt="Captura de pantalla 2026-06-22 a la(s) 6 56 04 p  m" src="https://github.com/user-attachments/assets/fb8e5794-e7ca-4e06-8257-539a4bc48e55" />
 
 #### 📌 Bloque de Investigación 2: Operación Eficiente vs. Reactiva bajo Lluvia
 * **Hipótesis Exploratoria Inicial (Fase 1):** ¿Provocan los días de lluvia intensa picos de tarifas dinámicas que NeoCab está perdiendo actualmente por no posicionar autos de forma preventiva en "hotspots"?
 * **Hipótesis Refinada Cuantitativa (Fase 2):** NeoCab sufre una pérdida constante de ingresos potenciales al operar de forma reactiva y no posicionar vehículos de manera preventiva en las zonas comerciales de alta densidad gastronómica durante las horas de lluvia intensa, donde la coincidencia del mal clima y la salida de los locales de ocio genera picos de tarifa dinámica que la empresa pierde por tener a los conductores dispersos.
 * **Resultado del Diagnóstico:** **VALIDADA.** Al cruzar las zonas de alta densidad con los registros de precipitación, el análisis de datos demostró que la tarifa cobrada promedio no compensa orgánicamente la escasez extrema de unidades en horas de tormenta. Esto comprueba que operar de manera reactiva dispersa la flota y genera una pérdida de ingresos potenciales debido a la falta de una política de posicionamiento de conductores previa a la salida de los locales de ocio.
+<img width="935" height="521" alt="Captura de pantalla 2026-06-22 a la(s) 6 56 15 p  m" src="https://github.com/user-attachments/assets/aa352ba5-6b76-4968-a19f-183c5e94d0f5" />
+
 
 #### 📌 Bloque de Investigación 3: Eficiencia Vial y Escasez en Eventos Complejos
 * **Hipótesis Exploratoria Inicial (Fase 1):** ¿La velocidad promedio de los viajes se reduce de forma crítica durante eventos de precipitación intensa (lluvia/nieve), afectando la rentabilidad por hora del conductor y la satisfacción del cliente?
 * **Hipótesis Refinada Cuantitativa (Fase 2):** Los tiempos de espera de los usuarios y la escasez crítica de vehículos de NeoCab se concentran de manera predecible en los distritos de alta densidad gastronómica durante las horas de lluvia intensa en días feriados, debido a que la empresa opera de forma reactiva, ignorando que el empeoramiento del clima en periodos festivos alarga la duración de los viajes en curso y reduce la disponibilidad de la flota en las zonas de mayor demanda.
 * **Resultado del Diagnóstico:** **VALIDADA.** Mediante el cálculo en tiempo de ejecución de la métrica de velocidad promedio, se comprobó que bajo lluvia intensa la velocidad de los autos cae drásticamente de **11.4 MPH a solo 6.1 MPH** (una reducción crítica del **46.5%**). Al unirse el factor de día feriado, esta congestión vial severa alarga los viajes activos, atrapando a las unidades en ruta e impidiendo que regresen a los hotspots de alta demanda, generando picos alarmantes en los tiempos de espera del usuario y un desabastecimiento generalizado en el sistema.
+<img width="936" height="501" alt="Captura de pantalla 2026-06-22 a la(s) 6 56 27 p  m" src="https://github.com/user-attachments/assets/c3602560-3692-466b-8bb0-0dcb038f940a" />
+
 
 ---
 
@@ -100,6 +105,8 @@ El código implementado extrajo exitosamente los coeficientes individuales de pe
 **Tarifa Base Estimada = Intercepto + 2.81 * (es_hotspot) + 1.75 * (distancia) + 0.27 * (precip) - 1.09 * (es_feriado)**
 
 El análisis determina que **la ubicación en hotspots de vida nocturna (es_hotspot) es la variable predictora con mayor peso operativo en el negocio, con un coeficiente de +$2.81**, seguida por la distancia del viaje (distancia) con un coeficiente de **+$1.75**. La condición de día feriado (es_feriado) muestra un coeficiente negativo de **-$1.09**, lo que indica que estructuralmente en días feriados la tarifa base tiende a contraerse si no se aplican correctores dinámicos algorítmicos (efecto condicionado por la multicolinealidad evaluada en la Celda 98).
+<img width="931" height="819" alt="Captura de pantalla 2026-06-22 a la(s) 6 56 42 p  m" src="https://github.com/user-attachments/assets/02783e80-bbd4-4be7-bce4-0bf424dae96e" />
+
 
 ---
 
