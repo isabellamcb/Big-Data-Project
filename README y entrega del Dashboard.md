@@ -8,7 +8,7 @@ Curso: Introducción a Data Analytics y Big Data · UTEC 2026-1
 ---
 
 ## 📊 Dashboard interactivo
-
+- **[Ver Dashboard Analítico (DashboardNeoCab.html)](./DashboardNeoCab.html)** 🔗 — Haga clic aquí para ir directamente al archivo del dashboard interactivo alojado en la raíz de este repositorio. Desde allí podrá visualizar su historial de versiones o descargarlo para ejecutarlo localmente en cualquier navegador moderno.
 - **`DashboardNeoCab.html`** — Versión interactiva completa con reportes geoespaciales y temporales embebidos en la raíz del proyecto. Se ejecuta localmente en cualquier navegador moderno sin necesidad de servidores activos.
 - **Capturas estáticas** — Archivos `.png` independientes integrados directamente en este informe para lectura rápida y trazabilidad en GitHub.
 
